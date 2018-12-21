@@ -1,0 +1,50 @@
+
+
+drop database if exists bookstore;
+
+create database if not exists bookstore;
+use bookstore;
+
+
+
+create table person(
+	sid varchar(8) ,
+	sname varchar(10) not null,
+   	sex varchar(30) default 'M',
+	company varchar(30),
+	zhiwei varchar(30),
+	phone varchar(30),
+	pQ varchar(30),
+	weixin varchar(30)
+);
+insert into person(sid,sname,phone)values('2002','张三','125488'),
+('2002','sss张三','125488'),
+('2002','aa张三a','125488'),
+('2003','李四','125488'),
+('2023','李四','125488'),
+('203','李四','125488'),
+('2503','李四','125488'),
+('2103','李四','125488'),
+('2004','s聂s5','125488');
+('2004','聂5a','125488');
+('2004','s聂5','125488');
+('2004','a聂5','125488');
+select * from person;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
